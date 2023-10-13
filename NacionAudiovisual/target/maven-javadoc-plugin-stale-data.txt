@@ -1,0 +1,53 @@
+@options
+@packages
+-classpath
+'C:/Users/alexa/.m2/repository/org/netbeans/external/AbsoluteLayout/RELEASE180/AbsoluteLayout-RELEASE180.jar;C:/Users/alexa/.m2/repository/org/postgresql/postgresql/42.2.14.jre7/postgresql-42.2.14.jre7.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'20'
+-sourcepath
+'C:/Users/alexa/OneDrive/Escritorio/NacionAudiovisual/Application_NA/NacionAudiovisual/src/main/java;C:/Users/alexa/OneDrive/Escritorio/NacionAudiovisual/Application_NA/NacionAudiovisual/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/alexa/OneDrive/Escritorio/NacionAudiovisual/Application_NA/NacionAudiovisual/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'NacionAudiovisual 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'NacionAudiovisual 1.0-SNAPSHOT API'
+com.nacionaudiovisual.gui
+com.nacionaudiovisual.logic
+Persistence
+C:\Users\alexa\.m2\repository\org\netbeans\external\AbsoluteLayout\RELEASE180\AbsoluteLayout-RELEASE180.jar = 1694264571134
+C:\Users\alexa\.m2\repository\org\postgresql\postgresql\42.2.14.jre7\postgresql-42.2.14.jre7.jar = 1697075677363
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\src\main\java = 1694877687054
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\target\generated-sources\annotations = 1697115908164
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\target\apidocs\allclasses-index.html = 1697115910914
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\target\apidocs\allpackages-index.html = 1697115910916
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\target\apidocs\copy.svg = 1697115910945
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\target\apidocs\element-list = 1697115910798
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\target\apidocs\help-doc.html = 1697115910941
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\target\apidocs\index-all.html = 1697115910934
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\target\apidocs\index.html = 1697115910903
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\target\apidocs\member-search-index.js = 1697115910920
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\target\apidocs\module-search-index.js = 1697115910917
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\target\apidocs\overview-summary.html = 1697115910937
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\target\apidocs\overview-tree.html = 1697115910900
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\target\apidocs\package-search-index.js = 1697115910918
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\target\apidocs\script.js = 1697115910944
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\target\apidocs\search-page.js = 1697115910949
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\target\apidocs\search.html = 1697115910936
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\target\apidocs\search.js = 1697115910948
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\target\apidocs\serialized-form.html = 1697115910855
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\target\apidocs\stylesheet.css = 1697115910943
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\target\apidocs\tag-search-index.js = 1697115910921
+C:\Users\alexa\OneDrive\Escritorio\NacionAudiovisual\Application_NA\NacionAudiovisual\target\apidocs\type-search-index.js = 1697115910919

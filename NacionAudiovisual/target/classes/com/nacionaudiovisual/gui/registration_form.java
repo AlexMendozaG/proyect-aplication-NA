@@ -48,13 +48,16 @@ public class registration_form extends javax.swing.JFrame {
         yearsold = new javax.swing.JLabel();
         txtAdress = new javax.swing.JTextField();
         txtName = new javax.swing.JTextField();
-        txtPassword = new javax.swing.JTextField();
         jSeparator5 = new javax.swing.JSeparator();
         password = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        cbxTypeUser = new javax.swing.JComboBox<>();
         jSeparator8 = new javax.swing.JSeparator();
         txtCellphone = new javax.swing.JTextField();
+        jPasswordField1 = new javax.swing.JPasswordField();
+        jLabel4 = new javax.swing.JLabel();
         jSeparator6 = new javax.swing.JSeparator();
         jSeparator7 = new javax.swing.JSeparator();
         btnRegistration = new javax.swing.JPanel();
@@ -90,11 +93,12 @@ public class registration_form extends javax.swing.JFrame {
         coperyng.setText("@Coperyng 2023");
         backgruondPanel.add(coperyng, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 500, -1, -1));
 
+        txtDue.setEditable(false);
         txtDue.setBackground(new java.awt.Color(70, 100, 109));
         txtDue.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         txtDue.setForeground(new java.awt.Color(255, 255, 255));
         txtDue.setBorder(null);
-        backgruondPanel.add(txtDue, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 170, 150, 30));
+        backgruondPanel.add(txtDue, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, 150, 30));
 
         txtLastName.setBackground(new java.awt.Color(70, 100, 109));
         txtLastName.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -145,29 +149,32 @@ public class registration_form extends javax.swing.JFrame {
         txtName.setForeground(new java.awt.Color(255, 255, 255));
         txtName.setBorder(null);
         backgruondPanel.add(txtName, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 210, 150, 30));
-
-        txtPassword.setBackground(new java.awt.Color(70, 100, 109));
-        txtPassword.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        txtPassword.setForeground(new java.awt.Color(255, 255, 255));
-        txtPassword.setBorder(null);
-        backgruondPanel.add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 260, 150, 30));
         backgruondPanel.add(jSeparator5, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 380, 150, -1));
 
         password.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         password.setForeground(new java.awt.Color(255, 255, 255));
         password.setText("Password:");
-        backgruondPanel.add(password, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 230, -1, -1));
+        backgruondPanel.add(password, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 280, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("User Name:");
-        backgruondPanel.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 130, -1, -1));
+        backgruondPanel.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 220, -1, -1));
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Adress:");
         backgruondPanel.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 330, -1, -1));
-        backgruondPanel.add(jSeparator8, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 290, 150, 10));
+
+        jLabel3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setText("Type User");
+        backgruondPanel.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 110, -1, -1));
+
+        cbxTypeUser.setBackground(new java.awt.Color(79, 100, 109));
+        cbxTypeUser.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Student", "Teacher" }));
+        backgruondPanel.add(cbxTypeUser, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 170, 150, 30));
+        backgruondPanel.add(jSeparator8, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 330, 150, 10));
 
         txtCellphone.setBackground(new java.awt.Color(70, 100, 109));
         txtCellphone.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -175,8 +182,18 @@ public class registration_form extends javax.swing.JFrame {
         txtCellphone.setText(" ");
         txtCellphone.setBorder(null);
         backgruondPanel.add(txtCellphone, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 350, 150, 30));
+
+        jPasswordField1.setBackground(new java.awt.Color(70, 100, 109));
+        jPasswordField1.setForeground(new java.awt.Color(255, 255, 255));
+        jPasswordField1.setBorder(null);
+        backgruondPanel.add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 300, 150, 30));
+
+        jLabel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setText("Select Type:");
+        backgruondPanel.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 150, -1, -1));
         backgruondPanel.add(jSeparator6, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 380, 150, -1));
-        backgruondPanel.add(jSeparator7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 200, 150, 10));
+        backgruondPanel.add(jSeparator7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 270, 150, 10));
 
         btnRegistration.setBackground(new java.awt.Color(237, 111, 113));
         btnRegistration.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -298,40 +315,7 @@ public class registration_form extends javax.swing.JFrame {
         btnRegistration.setBackground(new Color(237,111,113));
     }//GEN-LAST:event_btnRegistrationMouseExited
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(registration_form.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(registration_form.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(registration_form.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(registration_form.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
 
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new registration_form().setVisible(true);
-            }
-        });
-    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel background;
@@ -339,11 +323,15 @@ public class registration_form extends javax.swing.JFrame {
     private javax.swing.JLabel btnBAck;
     private javax.swing.JLabel btnRegister;
     private javax.swing.JPanel btnRegistration;
+    private javax.swing.JComboBox<String> cbxTypeUser;
     private javax.swing.JLabel cellphone;
     private javax.swing.JLabel coperyng;
     private javax.swing.JLabel identifynumber;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
@@ -363,7 +351,6 @@ public class registration_form extends javax.swing.JFrame {
     private javax.swing.JTextField txtIdentifyNumber;
     private javax.swing.JTextField txtLastName;
     private javax.swing.JTextField txtName;
-    private javax.swing.JTextField txtPassword;
     private javax.swing.JTextField txtYearsold;
     private javax.swing.JLabel yearsold;
     // End of variables declaration//GEN-END:variables
